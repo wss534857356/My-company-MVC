@@ -8,7 +8,7 @@
 class LWordDBTask {
 // 添加留言
     public function append($newLWord) {
-// 数据层代码(省略)
+
     }
 };
 return 0;
