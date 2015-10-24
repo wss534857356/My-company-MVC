@@ -44,7 +44,10 @@ interface AppExtension {
 class CheckPowerExtension implements AppExtension {
 // 添加留言前
     public function beforeAppend($newWord) {
-// 在这里判断用户权限
+        session_start();
+        if(!isset($_SESSION['userId'])){
+            
+        }
     }
 // 添加留言后
     public function behindAppend($newWord) {
@@ -117,3 +120,4 @@ class LWordServiceCore implements ILWordService {
         $ext->behindAppend($newLWord);
     }
 };
+?>
