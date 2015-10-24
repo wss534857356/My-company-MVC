@@ -45,4 +45,8 @@ function post_check($post) {
 
     return $post;
 }
+<<<<<<< HEAD
 ?>
+=======
+?>
+>>>>>>> origin/master
