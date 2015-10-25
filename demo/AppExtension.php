@@ -10,9 +10,5 @@ namespace AppExtension;
 
 
 interface AppExtension {
-
-<<<<<<< HEAD
 }
-=======
-}
->>>>>>> origin/master
+?>
