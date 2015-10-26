@@ -13,7 +13,7 @@ class LWordDBTask {
         $userId=$_SESSION['userId'];
         $query=@mysql_query("insert into message(userId,messageContent)VALUES ('$userId','".$newLWord."');");
         if($query)
-            return $newLWord."添加成功";
+            return "添加成功";
         else
             return "添加失败";
         $sql="";
