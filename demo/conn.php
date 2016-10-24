@@ -11,4 +11,3 @@ or die("服务器连接失败");
 @mysqli_select_db("test",$conn)
 or die("数据库不存在或不可用");
 mysql_query("set names 'utf8'");
-?>
